@@ -92,4 +92,12 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    
+    /**
+     * Make the sun come down
+     */
+    public void atardecer()
+    {
+        sun.slowMoveVertical(100);
+    }
 }
